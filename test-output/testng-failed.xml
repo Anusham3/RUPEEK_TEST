@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.json_server.tests.GetUser">
+        <methods>
+          <include name="config"/>
+          <include name="getSingleResourceWithInValidId"/>
+          <include name="getSingleResourceWithValidId"/>
+          <include name="getAll"/>
+          <include name="authenticate"/>
+        </methods>
+      </class> <!-- com.json_server.tests.GetUser -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
