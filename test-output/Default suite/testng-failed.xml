@@ -6,10 +6,10 @@
       <class name="com.json_server.tests.GetUser">
         <methods>
           <include name="config"/>
-          <include name="getSingleResourceWithInValidId"/>
-          <include name="getSingleResourceWithValidId"/>
-          <include name="getAll"/>
+          <include name="getSingleUserWithValidPhoneNum"/>
+          <include name="getAllUser"/>
           <include name="authenticate"/>
+          <include name="getSingleUserWithInValidPhonenum"/>
         </methods>
       </class> <!-- com.json_server.tests.GetUser -->
     </classes>

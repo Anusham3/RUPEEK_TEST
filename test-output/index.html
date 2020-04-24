@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1130275790\testng-customsuite.xml</span>
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1306898035\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,17 +102,17 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.json_server.tests.GetUser" hash-for-method="getAll">getAll</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.json_server.tests.GetUser" hash-for-method="getAllUser">getAllUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.json_server.tests.GetUser" hash-for-method="getSingleResourceWithInValidId">getSingleResourceWithInValidId</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.json_server.tests.GetUser" hash-for-method="getSingleUserWithInValidPhonenum">getSingleUserWithInValidPhonenum</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.json_server.tests.GetUser" hash-for-method="getSingleResourceWithValidId">getSingleResourceWithValidId</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.json_server.tests.GetUser" hash-for-method="getSingleUserWithValidPhoneNum">getSingleUserWithValidPhoneNum</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -135,9 +135,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getAll">
-                  </a> <!-- getAll -->
-                  <span class="method-name">getAll</span>
+                  <a name="getAllUser">
+                  </a> <!-- getAllUser -->
+                  <span class="method-name">getAllUser</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;401&gt;.
 
@@ -177,7 +177,7 @@ Expected status code &lt;200&gt; but was &lt;401&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at com.json_server.tests.GetUser.getAll(GetUser.java:20)
+	at com.json_server.tests.GetUser.getAllUser(GetUser.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -209,9 +209,9 @@ Expected status code &lt;200&gt; but was &lt;401&gt;.
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="getSingleResourceWithInValidId">
-                  </a> <!-- getSingleResourceWithInValidId -->
-                  <span class="method-name">getSingleResourceWithInValidId</span>
+                  <a name="getSingleUserWithInValidPhonenum">
+                  </a> <!-- getSingleUserWithInValidPhonenum -->
+                  <span class="method-name">getSingleUserWithInValidPhonenum</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;401&gt;.
 
@@ -249,7 +249,7 @@ Expected status code &lt;404&gt; but was &lt;401&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at com.json_server.tests.GetUser.getSingleResourceWithInValidId(GetUser.java:37)
+	at com.json_server.tests.GetUser.getSingleUserWithInValidPhonenum(GetUser.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -281,9 +281,9 @@ Expected status code &lt;404&gt; but was &lt;401&gt;.
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="getSingleResourceWithValidId">
-                  </a> <!-- getSingleResourceWithValidId -->
-                  <span class="method-name">getSingleResourceWithValidId</span>
+                  <a name="getSingleUserWithValidPhoneNum">
+                  </a> <!-- getSingleUserWithValidPhoneNum -->
+                  <span class="method-name">getSingleUserWithValidPhoneNum</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;401&gt;.
 
@@ -321,7 +321,7 @@ Expected status code &lt;200&gt; but was &lt;401&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at com.json_server.tests.GetUser.getSingleResourceWithValidId(GetUser.java:28)
+	at com.json_server.tests.GetUser.getSingleUserWithValidPhoneNum(GetUser.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -356,7 +356,7 @@ Expected status code &lt;200&gt; but was &lt;401&gt;.
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1130275790\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1306898035\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -407,22 +407,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getSingleResourceWithInValidId')
+data.setCell(0, 1, 'getAllUser')
 data.setCell(0, 2, 'com.json_server.tests.GetUser')
-data.setCell(0, 3, 643);
+data.setCell(0, 3, 280);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getAll')
+data.setCell(1, 1, 'getSingleUserWithValidPhoneNum')
 data.setCell(1, 2, 'com.json_server.tests.GetUser')
-data.setCell(1, 3, 270);
+data.setCell(1, 3, 265);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'getSingleResourceWithValidId')
+data.setCell(2, 1, 'getSingleUserWithInValidPhonenum')
 data.setCell(2, 2, 'com.json_server.tests.GetUser')
-data.setCell(2, 3, 201);
+data.setCell(2, 3, 203);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 748 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -453,27 +453,27 @@ return data;
                 <span class="method-name">config</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
+              <div class="configuration-class before">
                 <span class="method-name">authenticate</span>
-                <span class="method-start">1157 ms</span>
-              </div> <!-- configuration-test before -->
+                <span class="method-start">1201 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">getAll</span>
-                <span class="method-start">4095 ms</span>
+                <span class="method-name">getAllUser</span>
+                <span class="method-start">3925 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">getSingleResourceWithInValidId</span>
-                <span class="method-start">4395 ms</span>
+                <span class="method-name">getSingleUserWithValidPhoneNum</span>
+                <span class="method-start">4586 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">getSingleResourceWithValidId</span>
-                <span class="method-start">5048 ms</span>
+                <span class="method-name">getSingleUserWithInValidPhonenum</span>
+                <span class="method-start">4866 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

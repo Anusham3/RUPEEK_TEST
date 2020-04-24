@@ -3,13 +3,11 @@ package com.json_server.generics;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.port;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 
 import io.restassured.http.ContentType;
 import io.restassured.internal.util.IOUtils;
@@ -24,7 +22,8 @@ public class BaseLib {
 	/**
 	 * to initialize the base URI, port and authentication
 	 */
-	public static String token;
+
+
 
 	@BeforeSuite
 	public void config() {
@@ -35,7 +34,7 @@ public class BaseLib {
 
 	}
 
-	@BeforeTest
+	@BeforeClass
 
 	public void authenticate() {
 
@@ -48,6 +47,7 @@ public class BaseLib {
 
 			
 			String token = response.toString();
+		
 		
 			given().auth().oauth2(token);
 
